@@ -1,0 +1,426 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+
+	<title>Shubham Jain</title>
+
+	<style>
+	body {
+  background: #EEEEEE;
+  font: 12px "Times New Roman", Times, sans-serif;
+  line-height: 1.4;
+  margin: 40px 0;
+}
+em {
+  color: #999;
+}
+p {
+  line-height: 1.4;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 2px;
+}
+a {
+  text-decoration: none;
+}
+
+#resume {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 80px 100px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px #aaa;
+  -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+  width: 28%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.largeFont {
+  font-size: 20px;
+}
+
+.smallFont {
+  font-size: 12px;
+}
+
+.sectionBlock {
+  display: flex;
+  width: 100%;
+}
+
+.sectionName {
+  width: 18%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent {
+  width: 80%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent ul {
+  padding-left: 20px;
+  margin-top: 6px;
+  list-style-type: circle;
+}
+
+.sectionContent .title {
+  font-weight: bold;
+}
+
+.sectionContent .date {
+  float: right;
+}
+
+.sectionContent .separator {
+  height: 14px;
+}
+
+.sectionLine {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #CFCFCF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.summary {
+  margin-top: 6px;
+}
+
+.skillBlock {
+  margin-bottom: 4px;
+}
+
+.jobBlock {
+  page-break-inside: avoid;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 40em) {
+  body {
+    margin: 0;
+    font-size: 14px;
+  }
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0.5em 1em;
+    border: none;
+  }
+  .sectionContent {
+    width: 100%;
+  }
+  .sectionContent .date {
+    padding-right: 2em;
+  }
+  .sectionName {
+    width: auto;
+  }
+  .largeFont {
+    font-size: 20px;
+  }
+  .smallFont {
+    font-size: 14px;
+  }
+}
+
+@media print {
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0px 0px;
+    border: 0px;
+    background: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  a {
+    color: black;
+  }
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<div id='resume'>
+  <div id='nameBlock' class='largeFont'>
+    <span class='name'>
+      Shubham Jain,
+    </span>
+    <span class='label'>Machine Learning, Web &amp; Cloud.</span>
+  </div>
+  <div id='basicsBlock' class='smallFont'>
+    <div class='contactBlock'>
+      <span class='email'>shubhamkjain@outlook.com</span>
+      <span class='divider'>|</span>
+      <span class='phone'>+918882110959</span>
+        <span class='divider'>|</span>
+        <span class='address'>
+          Delhi, Delhi, IN
+        </span>
+    </div>
+      <div id='profilesBlock'>
+            <span class='url'>
+              <a href='https://www.linkedin.com/in/slayerjain'>https://www.linkedin.com/in/slayerjain</a>
+            </span>
+            <span class='divider'>|</span>
+            <span class='url'>
+              <a href='https://soundcloud.com/slayerjain'>https://soundcloud.com/slayerjain</a>
+            </span>
+            
+      </div>
+  </div>
+  <div class='sectionLine'></div>
+
+  <div id='summaryBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>SUMMARY</span>
+    </div>
+    <div class='sectionContent'>
+      <span>I love designing highly scalable, cost effective and powerful systems. I have been into designing system level modules using the rust, and these days I spend time exploiting the power of Machine learning. I&#x27;m also a vocalist, multi-instrumentalist, and music producer, having involvements in many music projects.   I&#x27;m also probably the youngest (globally) to have completed all 5 AWS certifications (including Solutions architect Pro and Dev-ops engineer pro).</span>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+  <div id='workBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EXPERIENCE</span>
+    </div>
+    <div class='sectionContent'>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          XWiki, Google Summer of Code developer
+	        </span>
+	        <span class='date'>
+	          May 2017 &mdash; Present
+	        </span>
+	      </div>
+	      <div><a href='https://www.xwiki.org'>https://www.xwiki.org</a></div>
+	      <ul class='highlights'>
+	        <li>I&#x27;m working with XWiki to create an importer for Docuwiki projects to XWiki, ensuring consistency and flexibility. I&#x27;ll be leveraging the XWiki&#x27;s streams framework for this project.</li>
+	        <li>Extend the enterprise grade custom java streams framework</li>
+	        <li>Improve the XWiki filter module </li>
+	        <li>Create a driver to port data from file based storage system to SQL database</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Amazon Internet Services Private Limited, Intern
+	        </span>
+	        <span class='date'>
+	          Nov 2016 &mdash; May 2017
+	        </span>
+	      </div>
+	      <div><a href='https://aws.amazon.com'>https://aws.amazon.com</a></div>
+	      <ul class='highlights'>
+	        <li>Amazon Internet Services private limited is the Indian entity for Amazon Web Services in India. I&#x27;ve worked with Business development, sales and the solutions architect teams. I&#x27;ve worked with dozens of startups and enterprises to create scalable, cost effective, fault tolerant, and powerful systems. I&#x27;ve also completed all 5 AWS certifications during my internship.</li>
+	        <li>Interaction and migration with numerous on startups and SMBs</li>
+	        <li>Close association with Solutions architect, Business development, and Operations team.</li>
+	        <li>Probably the youngest (globally) to pass all 5 AWS certification exams.</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Nextgendeals, Co-Founder
+	        </span>
+	        <span class='date'>
+	          Jan 2016 &mdash; Nov 2016
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+	      <ul class='highlights'>
+	        <li>We built an end-to-end platform for selling the &#x27;Next&#x27; brand appliances. The startup handled the online business for Next appliances. Apart from the primary business, we focused more on creating interesting technology, most notable one was: A web service that brings apple&#x27;s continuity features (including calling) to the masses.</li>
+	        <li>Highly decoupled architecture designed on AWS for the web service enabling very low latency experience</li>
+	        <li>Experimented many e-commerce platforms for the web</li>
+	        <li>Implemented custom bluetooth protocol to support transferring audio to PC, however it turned out to be very specific to the bluetooth stack.</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          RealBox Data Analytics Private Limited, Research And Development Intern
+	        </span>
+	        <span class='date'>
+	          Dec 2015 &mdash; Jan 2016
+	        </span>
+	      </div>
+	      <div><a href='http://realbox.in'>http://realbox.in</a></div>
+	      <ul class='highlights'>
+	        <li>I worked on creating a Point of Sale (POS) system, using some great javascript libraries, mongoDB, deployed it to a raspberry pi. The goal was to make it end to end, and light enough to support raspberry pi as the central server.</li>
+	        <li>Ported Oracle SQL based system to mongoDB and wrote query wrappers using mongoDB functions</li>
+	        <li>Designed the whole server to run on Raspberry Pi with lowered latency.</li>
+	        <li>Designed the front end on using custom android image to enable immersive kiosk mode</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          IBM, Intern
+	        </span>
+	        <span class='date'>
+	          Apr 2015 &mdash; Jul 2015
+	        </span>
+	      </div>
+	      <div><a href='https://www.ibm.com'>https://www.ibm.com</a></div>
+	      <ul class='highlights'>
+	        <li>I tested and benchmarked various enterprise applications on variety of platforms. The test ensured validity of various SLAs.</li>
+	        <li>First exposure to corporate systems and environment</li>
+	        <li>Learned about extensive testing suites, cloud, and AI</li>
+	      </ul>
+	      
+			</div>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+
+	<div id='awards' class="sectionBlock">
+    <div class='sectionName'>
+      <span>AWARDS</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='blockHeader'>
+        <span class='title'>
+          CSI Young IT Professional, North India, Computer Society of India
+        </span>
+      </div>
+      <ul class='highlights'>
+        <li>I along with Neha gupta, won the award for our research on designing an IoT chip architecture using Nvidia Tegra reference and simulated it using Nvidia Teslas</li>
+      </ul>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+
+	<div id='education' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EDUCATION</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='educationBlock'>
+        <span class='title'>
+          Bharati Vidyapeeth&#x27;s College of Engineering
+        </span>
+        <span class='date'>
+          2013 &mdash; 2017
+        </span>
+        <div class=''>
+          Bachelor of Technology  - Computer Science &amp; Engineering
+        </div>
+      </div>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='skills' class="sectionBlock">
+    <div class='sectionName'>
+      <span>SKILLS</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='skillBlock'>
+        <span class='title'>Cloud architecting  <em>(Master)</em>:</span>
+          <span>AWS</span>, 
+          <span>Apache spark</span>, 
+          <span>Serverless design</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Machine learning <em>(Master)</em>:</span>
+          <span>CNN/DNN</span>, 
+          <span>Tensorflow</span>, 
+          <span>Octave</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Programming <em>(Master)</em>:</span>
+          <span>Java</span>, 
+          <span>Go</span>, 
+          <span>C/C++</span>, 
+          <span>Javascript</span>
+      </div>
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='languages' class="sectionBlock">
+    <div class='sectionName'>
+      <span>LANGUAGES</span>
+    </div>
+    <div class='sectionContent'>
+      <span class='language'>English</span>
+      <span class='fluency'><em>(Professional fluency)</em></span>
+      <span>,</span>
+      <span class='language'>Hindi</span>
+      <span class='fluency'><em>(Native speaker)</em></span>
+      <span>,</span>
+      <span class='language'>Tamil </span>
+      <span class='fluency'><em>(Limited proficiency)</em></span>
+      <span>,</span>
+      <span class='language'>French</span>
+      <span class='fluency'><em>(Limited proficiency )</em></span>
+      
+    </div>
+    <div class='sectionLine'></div>
+	</div>
+
+	<div id='interests' class="sectionBlock">
+    <div class='sectionName'>
+      <span>INTERESTS</span>
+    </div>
+    <div class='sectionContent'>
+      <span class='name'>Music </span><!--
+      --><span class='keywords'> <em>[
+        Experimental/fusion music<!--
+        -->, 
+        Math rock/metal<!--
+        -->, 
+        Production/mastering<!--
+        -->
+      ]</em></span><!--
+      --><span>, </span>
+      <span class='name'>Technology</span><!--
+      --><span class='keywords'> <em>[
+        Artificial Intelligence<!--
+        -->, 
+        Quantum Computing &amp; HPC<!--
+        -->, 
+        Renewable energy<!--
+        -->
+      ]</em></span><!--
+      -->
+    </div>
+    <div class='sectionLine'></div>
+	</div>
+
+	</body>
+</html>
