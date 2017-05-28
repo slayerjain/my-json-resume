@@ -1,115 +1,184 @@
 {
   "basics": {
-    "name": "Richard Hendricks",
-    "label": "Programmer",
+    "name": "Shubham Jain",
+    "label": "Machine Learning, Web & Cloud.",
     "picture": "",
-    "email": "richard.hendricks@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "email": "shubhamkjain@outlook.com",
+    "phone": "+918882110959",
+    "website": "http://shubhams.xyz",
+    "summary": "I love designing highly scalable, cost effective and powerful systems. I have been into designing system level modules using the rust, and these days I spend time exploiting the power of Machine learning. I'm also a vocalist, multi-instrumentalist, and music producer, having involvements in many music projects.   I'm also probably the youngest (globally) to have completed all 5 AWS certifications (including Solutions architect Pro and Dev-ops engineer pro).",
     "location": {
-      "city": "San Francisco",
-      "countryCode": "US"
+      "address": "4415/14, Lotan Jat street, Pahari Dhiraj, Sadar Bazar",
+      "postalCode": "110006",
+      "city": "Delhi",
+      "countryCode": "IN",
+      "region": "Delhi"
     },
     "profiles": [
       {
-        "url": "http://twitter.com/neutralthoughts"
+        "network": "Linkedin",
+        "username": "slayerjain",
+        "url": "https://www.linkedin.com/in/slayerjain"
       },
       {
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "SoundCloud",
+        "username": "slayerjain",
+        "url": "https://soundcloud.com/slayerjain"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013",
-      "endDate": "2014",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "details": [
-        { "text": "Build an algorithm for artist to detect if their music was violating copy right infringement laws", "comment": "Java" },
-        { "text": "Optimized an algorithm that holds the current world record for Weisman Scores", "comment": "c++" },
-        { "text": "Successfully won Techcrunch Disrupt" }
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012",
-      "endDate": "2013",
-      "summary": "Global movement of free coding clubs for young people.",
+      "company": "XWiki",
+      "position": "Google Summer of Code developer",
+      "website": "https://www.xwiki.org",
+      "startDate": "May 2017",
+      "endDate": "",
+      "summary": "I'm working with XWiki to create an importer for Docuwiki projects to XWiki, ensuring consistency and flexibility. I'll be leveraging the XWiki's streams framework for this project.",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Extend the enterprise grade custom java streams framework",
+        "Improve the XWiki filter module ",
+        "Create a driver to port data from file based storage system to SQL database"
+      ]
+    },
+    {
+      "company": "Amazon Internet Services Private Limited",
+      "position": "Intern",
+      "website": "https://aws.amazon.com",
+      "startDate": "Nov 2016",
+      "endDate": "May 2017",
+      "summary": "Amazon Internet Services private limited is the Indian entity for Amazon Web Services in India. I've worked with Business development, sales and the solutions architect teams. I've worked with dozens of startups and enterprises to create scalable, cost effective, fault tolerant, and powerful systems. I've also completed all 5 AWS certifications during my internship.",
+      "highlights": [
+        "Interaction and migration with numerous on startups and SMBs",
+        "Close association with Solutions architect, Business development, and Operations team.",
+        "Probably the youngest (globally) to pass all 5 AWS certification exams."
+      ]
+    },
+    {
+      "company": "Nextgendeals",
+      "position": "Co-Founder",
+      "website": "",
+      "startDate": "Jan 2016",
+      "endDate": "Nov 2016",
+      "summary": "We built an end-to-end platform for selling the 'Next' brand appliances. The startup handled the online business for Next appliances. Apart from the primary business, we focused more on creating interesting technology, most notable one was: A web service that brings apple's continuity features (including calling) to the masses.",
+      "highlights": [
+        "Highly decoupled architecture designed on AWS for the web service enabling very low latency experience",
+        "Experimented many e-commerce platforms for the web",
+        "Implemented custom bluetooth protocol to support transferring audio to PC, however it turned out to be very specific to the bluetooth stack."
+      ]
+    },
+    {
+      "company": "RealBox Data Analytics Private Limited",
+      "position": "Research And Development Intern",
+      "website": "http://realbox.in",
+      "startDate": "Dec 2015",
+      "endDate": "Jan 2016",
+      "summary": "I worked on creating a Point of Sale (POS) system, using some great javascript libraries, mongoDB, deployed it to a raspberry pi. The goal was to make it end to end, and light enough to support raspberry pi as the central server.",
+      "highlights": [
+        "Ported Oracle SQL based system to mongoDB and wrote query wrappers using mongoDB functions",
+        "Designed the whole server to run on Raspberry Pi with lowered latency.",
+        "Designed the front end on using custom android image to enable immersive kiosk mode"
+      ]
+    },
+    {
+      "company": "IBM",
+      "position": "Intern",
+      "website": "https://www.ibm.com",
+      "startDate": "Apr 2015",
+      "endDate": "Jul 2015",
+      "summary": "I tested and benchmarked various enterprise applications on variety of platforms. The test ensured validity of various SLAs.",
+      "highlights": [
+        "First exposure to corporate systems and environment",
+        "Learned about extensive testing suites, cloud, and AI"
       ]
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011",
-      "endDate": "2014",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
+      "institution": "Bharati Vidyapeeth's College of Engineering",
+      "area": "Computer Science & Engineering",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2013",
+      "endDate": "2017",
+      "gpa": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "title": "CSI Young IT Professional, North India",
+      "date": "",
+      "awarder": "Computer Society of India",
+      "summary": "I along with Neha gupta, won the award for our research on designing an IoT chip architecture using Nvidia Tegra reference and simulated it using Nvidia Teslas"
     }
   ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
+  "publications": [],
   "skills": [
     {
-      "name": "Web Development",
-      "details": [
-        { "text": "HTML", "comment": "expert" },
-        { "text": "CSS", "comment": "expert" },
-        { "text": "Javascript", "comment": "expert" }
+      "name": "Cloud architecting ",
+      "level": "Master",
+      "keywords": [
+        "AWS",
+        "Apache spark",
+        "Serverless design"
       ]
     },
     {
-      "name": "Compression",
-      "details": [
-        { "text": "Mpeg", "comment": "competent" },
-        { "text": "MP4", "comment": "competent" },
-        { "text": "GIF", "comment": "novice" }
+      "name": "Machine learning",
+      "level": "Master",
+      "keywords": [
+        "CNN/DNN",
+        "Tensorflow",
+        "Octave"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Master",
+      "keywords": [
+        "Java",
+        "Go",
+        "C/C++",
+        "Javascript"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
+      "fluency": "Professional fluency"
+    },
+    {
+      "language": "Hindi",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "Tamil ",
+      "fluency": "Limited proficiency"
+    },
+    {
+      "language": "French",
+      "fluency": "Limited proficiency "
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Music ",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Experimental/fusion music",
+        "Math rock/metal",
+        "Production/mastering"
+      ]
+    },
+    {
+      "name": "Technology",
+      "keywords": [
+        "Artificial Intelligence",
+        "Quantum Computing & HPC",
+        "Renewable energy"
       ]
     }
-  ]
+  ],
+  "references": []
 }
