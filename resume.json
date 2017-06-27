@@ -107,10 +107,40 @@
   ],
   "awards": [
     {
+      "title": "AWS Certified Solutions Architect – Professional",
+      "date": "May 2017",
+      "awarder": "Amazon Web Services",
+      "summary": ""
+    },
+    {
+      "title": "AWS Certified DevOps Engineer – Professional",
+      "date": "May 2017",
+      "awarder": "Amazon Web Services ",
+      "summary": ""
+    },
+    {
+      "title": "AWS Certified Solutions Architect - Associate",
+      "date": "Dec 2016",
+      "awarder": "Amazon Web Services",
+      "summary": ""
+    },
+    {
+      "title": "AWS Certified SysOps Administrator - Associate",
+      "date": "Feb 2017",
+      "awarder": "Amazon Web Services",
+      "summary": ""
+    },
+    {
+      "title": "AWS Certified Developer - Associate",
+      "date": "Dec 2016",
+      "awarder": "Amazon Web Services",
+      "summary": ""
+    },
+    {
       "title": "CSI Young IT Professional, North India",
-      "date": "",
+      "date": "Mar 2016",
       "awarder": "Computer Society of India",
-      "summary": "I along with Neha gupta, won the award for our research on designing an IoT chip architecture using Nvidia Tegra reference and simulated it using Nvidia Teslas"
+      "summary": "I along with Neha gupta, won the award for our research on designing an IoT focused SoC architecture using Nvidia Tegra reference and simulated and modelled and implemented using Nvidia tesla series cards"
     }
   ],
   "publications": [],
