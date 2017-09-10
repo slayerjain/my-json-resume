@@ -1,18 +1,17 @@
 {
   "basics": {
     "name": "Shubham Jain",
-    "label": "Machine Learning, Web & Cloud.",
+    "label": "Building the Cloud.",
     "picture": "",
     "email": "shubhamkjain@outlook.com",
     "phone": "+918882110959",
     "website": "http://shubhams.xyz",
-    "summary": "I love designing highly scalable, cost effective and powerful systems. I have been into designing system level modules using the rust, and these days I spend time exploiting the power of Machine learning. I'm also a vocalist, multi-instrumentalist, and music producer, having involvements in many music projects.   I'm also probably the youngest (globally) to have completed all 5 AWS certifications (including Solutions architect Pro and Dev-ops engineer pro).",
+    "summary": "I'm aspiring to change the fundamentals of power, scalability, adaptability and security. I'm an enthusiast who spent time building a little kernel using rust (language), mobile apps, web apps, and distributed systems. I'm also probably the youngest (globally) to have completed all 5 AWS certifications (including Solutions architect Pro and Dev-ops engineer pro). I love producing progressive metal/rock/house music.",
     "location": {
       "address": "4415/14, Lotan Jat street, Pahari Dhiraj, Sadar Bazar",
       "postalCode": "110006",
       "city": "Delhi",
-      "countryCode": "IN",
-      "region": "Delhi"
+      "countryCode": "IN"
     },
     "profiles": [
       {
@@ -21,9 +20,9 @@
         "url": "https://www.linkedin.com/in/slayerjain"
       },
       {
-        "network": "SoundCloud",
+        "network": "Github",
         "username": "slayerjain",
-        "url": "https://soundcloud.com/slayerjain"
+        "url": "https://github.com/slayerjain"
       }
     ]
   },
@@ -31,14 +30,14 @@
     {
       "company": "XWiki",
       "position": "Google Summer of Code developer",
-      "website": "https://www.xwiki.org",
+      "website": "https://github.com/xwiki-contrib/dokuwiki",
       "startDate": "May 2017",
       "endDate": "",
-      "summary": "I'm working with XWiki to create an importer for Docuwiki projects to XWiki, ensuring consistency and flexibility. I'll be leveraging the XWiki's streams framework for this project.",
+      "summary": "I'm working with XWiki (Java based wiki engine) on an extension which imports a Dokuwiki instance to a XWiki instance, ensuring consistency and compatibility. I've leveraged XWiki's filter streams framework for this project.",
       "highlights": [
-        "Extend the enterprise grade custom java streams framework",
-        "Improve the XWiki filter module ",
-        "Create a driver to port data from file based storage system to SQL database"
+        "The module supports importing users, groups, attachments and also file document revision history.",
+        "I've also created a module for transpiling Dokuwiki syntax to Xwiki/2.1 syntax.",
+        "Dokuwiki uses a file based storage system, so this had to be imported to database style system (XWiki uses a Database system)."
       ]
     },
     {
@@ -151,14 +150,13 @@
       "keywords": [
         "AWS",
         "Apache spark",
-        "Serverless design"
+        "Docker/Kubernetes"
       ]
     },
     {
       "name": "Machine learning",
       "level": "Master",
       "keywords": [
-        "CNN/DNN",
         "Tensorflow",
         "Octave"
       ]
@@ -169,8 +167,7 @@
       "keywords": [
         "Java",
         "Go",
-        "C/C++",
-        "Javascript"
+        "Python"
       ]
     }
   ],
